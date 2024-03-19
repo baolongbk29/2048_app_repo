@@ -11,8 +11,8 @@ spec:
     metadata:
       labels:
         app: react-app
-      spec:
-    containers:
+    spec:
+      containers:
         - name: react-app-container
           image: sevenajay/2048:latest  # Use your actual Docker image name and tag
           ports:
