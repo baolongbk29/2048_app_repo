@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app-container
-          image: longlam071/2048:v1.30.v1.30
+          image: longlam071/2048:v1.30
           ports:
             - containerPort: 3000  # The port your React app is listening on
           tags: "v1.37"
